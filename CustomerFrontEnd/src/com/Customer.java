@@ -142,7 +142,7 @@ public class Customer {
 		}   
 		catch (Exception e)   
 		{    
-			output =  "{\"status\":\"error\", \"data\": \"Error while updating the Customer.\"}";   
+			output =  "{\"status\":\"error\", \"data\": \"Error while updating the Customer data.\"}";   
 			System.err.println(e.getMessage());   
 		} 	 
 	  return output;  
