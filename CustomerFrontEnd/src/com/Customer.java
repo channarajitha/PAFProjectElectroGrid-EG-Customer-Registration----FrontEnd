@@ -177,7 +177,7 @@ public class Customer {
 		}   
 		catch (Exception e)   
 		{    
-			output = "Error while deleting the Customer.";    
+			output = "Error while deleting the Customer data.";    
 			System.err.println(e.getMessage());   
 		} 
 	 
